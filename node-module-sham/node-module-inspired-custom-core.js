@@ -1,23 +1,28 @@
-/**
+/*!
  *
- *  #Simple Custom Browser Module System Core
+ *  # Node Module Inspired Custom Core
  *
- *  - This implementation of a browser module system core
- *    can be custom named/branded and optionally assigned
- *    to an additional namespace as well.
+ *  ## Custom Browser Module System Cores
  *
- *  - The code makes use of [String.trim](1) and
- *    [Object.keys](2), that are features of Mozilla's
- *    JavaScript versions 1.8.5.(1) respectively 1.8.1.(2).
+ *  There are 2 approaches targeting custom browser module system cores.
  *
- *    (1) - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim]
- *    (2) - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys]
+ *  - Each approach does exemplarily implement a browser module system core
+ *    that can be custom named/branded and optionally assigned to an additional
+ *    namespace as well.
  *
- *  - Therefore it can be used safely in every ECMAScript-3
- *    (JavaScript 1.5) compatible environment as long as there
- *    are shims(3) included that do cover the mentioned functionality.
+ *  - A core modules code base does make use of `String.trim`[^trim] and
+ *    `Object.keys`[^keys] that are features of Mozilla's JavaScript versions
+ *    1.8.5. respectively 1.8.1.
  *
- *    (3) - e.g. (1), (2), or recommended [https://github.com/es-shims/es5-shim/blob/master/es5-shim.min.js]
+ *  - Therefore it can be used safely in every ECMAScript-3 (JavaScript 1.5)
+ *    compatible environment as long as there are *shims*[^trim] [^keys] [^shim]
+ *    included that do cover the mentioned functionality.
+ *
+ *  [^trim]: developer.mozilla.org: [`String.trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim "developer.mozilla.org :: »String.trim«")
+ *
+ *  [^keys]: developer.mozilla.org: [`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys "developer.mozilla.org :: »Object.keys«")
+ *
+ *  [^shim]: recommended - github.com: [»es5-shim«](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys "github.com :: »es5-shim«")
  *
  */
 
