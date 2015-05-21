@@ -47,8 +47,11 @@ module("components.Enumerable_first_last", function (/*require, global*/) {
     /**
      *  implementing the "Enumerable_first_last" mixin module.
      */
-    this.first = first;
-    this.last = last;
+    var
+      enumerable = this
+    ;
+    enumerable.first = first;
+    enumerable.last = last;
   };
 
 

@@ -51,9 +51,12 @@ module("components.Enumerable_first_last_item", function (require, global) {
     /**
      *  implementing the "Enumerable_first_last_item" mixin module.
      */
-    this.first = first;
-    this.last = last;
-    this.item = item;
+    var
+      enumerable = this
+    ;
+    enumerable.first = first;
+    enumerable.last = last;
+    enumerable.item = item;
   };
 
 
@@ -70,7 +73,7 @@ module("components.Enumerable_first_last_item", function (require, global) {
   [http://closure-compiler.appspot.com/home]
 
 
-- Simple          -   266 byte
+- Simple          -   262 byte
 module("components.Enumerable_first_last_item",function(g,a){var b=a.parseFloat,c=a.Math.floor,d=function(){return this[0]},e=function(){return this[this.length-1]},f=function(a){return this[c(b(a,10))]};return function(){this.first=d;this.last=e;this.item=f}});
 
 

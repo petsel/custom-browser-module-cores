@@ -51,9 +51,12 @@ module("./test-modules/components/Enumerable/Enumerable.first-last-item", functi
     /**
      *  implementing the "Enumerable_first_last_item" mixin module.
      */
-    this.first = first;
-    this.last = last;
-    this.item = item;
+    var
+      enumerable = this
+    ;
+    enumerable.first = first;
+    enumerable.last = last;
+    enumerable.item = item;
   };
 
 

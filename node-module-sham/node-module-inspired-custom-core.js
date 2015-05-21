@@ -184,8 +184,8 @@
   [http://closure-compiler.appspot.com/home]
 
 
-- Simple          -   949 byte
-(function(b,d,e){var c=b("return this")();b=c.Object;var k=c.RegExp.prototype,p=b.prototype.toString,q=k.compile,g=/(?:)/;""+g.compile("(?:)","")!==""+g&&(k.compile=function(){q.apply(this,arguments);return this});var r=function(a){return function(b){return typeof b==a&&typeof b.call==a&&typeof b.apply==a}}("function"),l=b.keys,f={},h=function(a){return g.compile("^\\[object\\s+String\\]$").test(p.call(a))&&a.trim()||""},m=function(a){return f[h(a)]};e=function(a){return!!a&&("object"==(a=typeof a)||"function"==a)}(e)&&e||c;d=""!=(d=h(d))&&d||"module";b=function(a,b){a=h(a);var n=r(b)&&b(m,c);if(n&&a)return f[a]=n};b.all=function(){return l(f)};b.all.size=function(){return l(f).length};b.require=m;(function(){var a=c.parseFloat,b=c.Math.floor;this.first=function(){return this()[0]};this.last=function(){var a;return(a=this())[a.length-1]};this.item=function(c){return this()[b(a(c,10))]}}).call(b.all);return e[d]=b})(Function,"module");
+- Simple          -   979 byte
+(function(b,d,e){var c=b("return this")();b=c.Object;var l=c.RegExp.prototype,p=b.prototype.toString,q=l.compile,g=/(?:)/;""+g.compile("(?:)","")!==""+g&&(l.compile=function(){q.apply(this,arguments);return this});var r=function(a){return function(b){return typeof b==a&&typeof b.call==a&&typeof b.apply==a}}("function"),m=b.keys,f={},h=function(a){return g.compile("^\\[object\\s+String\\]$").test(p.call(a))&&a.trim()||""},k=function(a){return f[h(a)]};e=function(a){return!!a&&("object"==(a=typeof a)||"function"==a)}(e)&&e||c;d=""!=(d=h(d))&&d||"module";b=function(a,b){a=h(a);var n={exports:{},require:k};if(r(b)&&a)return b(n,k,c),f[a]=n.exports};b.all=function(){return m(f)};b.all.size=function(){return m(f).length};b.require=k;(function(){var a=c.parseFloat,b=c.Math.floor;this.first=function(){return this()[0]};this.last=function(){var a;return(a=this())[a.length-1]};this.item=function(c){return this()[b(a(c,10))]}}).call(b.all);return e[d]=b})(Function,"module");
 
 
 */
